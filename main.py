@@ -89,7 +89,7 @@ if blackjackPlaying == True:
         cpuWins = 0
         gamesPlayed = 0
 
-        for simulationNumber in range(50000):
+        for simulationNumber in range(100000):
           userSum = int(userSumPerm) + int(random.choice(cards))
           #for a in range(3):
           #  if userSum < 17:
